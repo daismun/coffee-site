@@ -8,4 +8,5 @@
 
 #coffeeImages>.carousel-inner {
     flex-grow: 4;
+    border-radius: 5%;
 }

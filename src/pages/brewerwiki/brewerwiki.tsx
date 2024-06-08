@@ -1,18 +1,15 @@
-
-import NavBar from "../../components/navbar"
-import Jumbotron from "../../components/jumbotron"
-import Carousel from "../../components/carousel"
+import NavBar from "../../components/navbar";
+import Jumbotron from "../../components/jumbotron";
+import Carousel from "../../components/carousel";
 function BrewerWiki() {
   return (
     <>
- 
-    <div>
-        <h1>
-          <NavBar/>
-          <section id="hero">
+      <div>
+        <NavBar />
+        <section id="hero">
           <div className="container">
             <div className="row">
-              <div className="col">              
+              <div className="col">
                 {Jumbotron(
                   "Second Page",
                   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua."
@@ -27,11 +24,10 @@ function BrewerWiki() {
               </div>
             </div>
           </div>
-        </section>        
-        </h1>
-    </div>
+        </section>
+      </div>
     </>
-  )
+  );
 }
 
-export default BrewerWiki
+export default BrewerWiki;

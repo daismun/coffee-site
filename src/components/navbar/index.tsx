@@ -7,11 +7,12 @@ function NavBar() {
       <nav
         className="navbar navbar-expand-lg bg-body-tertiary bg-dark"
         data-bs-theme="dark"
+        id="navigator"
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             Some fucking Site
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
