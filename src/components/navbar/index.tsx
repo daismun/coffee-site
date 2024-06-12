@@ -4,14 +4,15 @@ import "./index.css";
 function NavBar() {
   return (
     <>
-      <nav
+    <nav
         className="navbar navbar-expand-lg bg-body-tertiary bg-dark"
         data-bs-theme="dark"
         id="navigator"
       >
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            Some fucking Site
+            <img src="/public/vite.svg" alt="Logo" id="logoimage" />
+            Coffee Brewer Site
           </Link>
           <button
             className="navbar-toggler"
@@ -32,23 +33,19 @@ function NavBar() {
                   className="nav-link active"
                   aria-current="page"
                 >
-                  Second Page Loophole
+                  Brewers
                 </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  A Button
+                  About Me
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Fuck you
-                </a>
+                <a className="nav-link" href="#"></a>
               </li>
             </ul>
-            <span className="navbar-text">
-              Why the fuck are you getting bigger on the second Page
-            </span>
+            <span className="navbar-text">About me</span>
           </div>
         </div>
       </nav>

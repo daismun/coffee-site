@@ -1,3 +1,17 @@
 #navigator {
     font-size: 150%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logoimage {
+    width: 2rem;
+    padding: 5px;
 }

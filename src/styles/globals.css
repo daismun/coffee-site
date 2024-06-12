@@ -2,14 +2,22 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 #helpme {
   display: none;
+}
+
+.container {
+  margin-top: 16rem;
+  margin-bottom: 16rem;
+}
+
+.banner_images {
+  width: 80%;
+  height: auto;
+  border-radius: 5%;
+}
+#hero {
+  background-color: antiquewhite;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }

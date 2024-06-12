@@ -2,11 +2,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    height: auto;
 }
 
-#coffeeImages>.carousel-inner {
-    flex-grow: 4;
+#coffeeImages .carousel-inner {
+    width: 80%;
+    height: auto;
     border-radius: 5%;
 }
