@@ -29,11 +29,11 @@ function NavBar() {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link
-                  to={"/src/pages/brewerwiki/"}
+                  to={"/src/pages/brewergallery/"}
                   className="nav-link active"
                   aria-current="page"
                 >
-                  Brewers
+                  Brewer Gallery
                 </Link>
               </li>
               <li className="nav-item">

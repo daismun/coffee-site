@@ -1,8 +1,7 @@
 import Carousel from "./components/carousel";
-import Jumbotron from "./components/jumbotron";
 import NavBar from "./components/navbar";
-import "./styles/globals.css";
 import Section from "./components/section";
+import "./styles/globals.css";
 
 function App() {
   return (
@@ -13,11 +12,15 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col">
-              {Jumbotron(
-                "Welcome to my website",
-                "It's my first ever fininshed website and I'm very excited to share it with the world. \
-                  I didn't really finish it but I'm very proud of it. I'm a begginer in web development so go easy on me."
-              )}
+              <div className="jumbotron jumbotron-fluid">
+                <h1 className="display-4">Welcome to my website</h1>
+                <p className="lead">
+                  It's my first ever fininshed website and I'm very excited to
+                  share it with the world. I didn't really finish it but I'm
+                  very proud of it. I'm a begginer in web development so go easy
+                  on me.
+                </p>
+              </div>
             </div>
             <div className="col">
               {Carousel(

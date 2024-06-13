@@ -1,0 +1,10 @@
+.coffee-row {
+    margin-bottom: 5rem;
+    text-align: center;
+
+}
+
+.coffee-row h1 {
+    padding: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

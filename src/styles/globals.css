@@ -1,18 +1,26 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: antiquewhite !important;
 }
 
 #helpme {
   display: none;
 }
 
-#design, #pictures, #time {
-  margin-top: 30vh;
-  margin-bottom: 30vh;
+#hero {
+  background-color: burlywood;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
 }
 
-body {
-  background-color: antiquewhite !important;
+#design,
+#pictures,
+#time {
+  margin-top: 30vh;
+  margin-bottom: 30vh;
 }
 
 .banner_images {
@@ -20,19 +28,10 @@ body {
   height: auto;
   border-radius: 5%;
 }
-#hero {
-  background-color: burlywood;
-  padding-top: 20vh;
-  padding-bottom: 20vh;
-}
 
-.coffee-row {
-  margin-bottom: 5rem;
-  text-align: center;
-
-}
-
-.coffee-row h1 {
-  padding: 5%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+.jumbotron {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
