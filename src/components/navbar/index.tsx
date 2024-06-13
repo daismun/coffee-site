@@ -11,7 +11,7 @@ function NavBar() {
       >
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <img src="/public/vite.svg" alt="Logo" id="logoimage" />
+            <img src="/vite.svg" alt="Logo" id="logoimage" />
             Coffee Brewers Site
           </Link>
           <button
