@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import BrewerGallery from "./pages/brewergallery/index.tsx";
+import AboutMe from "./pages/aboutme/index.tsx";
 import "bootstrap/dist/css/bootstrap.css";
 import "./styles/globals.css";
 
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
     path: "/src/pages/brewergallery/",
     element: <BrewerGallery/>,
   },
+  {
+    path: "/src/pages/aboutme/",
+    element: <AboutMe/>,
+  }
 ]);
 
 

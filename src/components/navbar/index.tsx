@@ -40,7 +40,11 @@ function NavBar() {
                 <a className="nav-link" href="#"></a>
               </li>
             </ul>
-            <span className="navbar-text">About me</span>
+            <span className="navbar-text">
+              <Link to={"/src/pages/aboutme/"} className="btn active">
+                About me
+              </Link>
+            </span>
           </div>
         </div>
       </nav>

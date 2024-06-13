@@ -1,0 +1,15 @@
+.container {
+    margin: 0;
+    padding: 0;
+    padding-top: 10vh;
+}
+
+.img {
+    width: 54vh;
+}
+
+.col li, p {
+    text-align: start;
+    font-size: 25px;
+    padding: 1rem 0rem 1rem 0rem ;
+}
