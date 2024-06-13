@@ -4,7 +4,7 @@ import "./index.css";
 function NavBar() {
   return (
     <>
-    <nav
+      <nav
         className="navbar navbar-expand-lg bg-body-tertiary bg-dark"
         data-bs-theme="dark"
         id="navigator"
@@ -12,7 +12,7 @@ function NavBar() {
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             <img src="/public/vite.svg" alt="Logo" id="logoimage" />
-            Coffee Brewer Site
+            Coffee Brewers Site
           </Link>
           <button
             className="navbar-toggler"
@@ -35,11 +35,6 @@ function NavBar() {
                 >
                   Brewers
                 </Link>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  About Me
-                </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#"></a>

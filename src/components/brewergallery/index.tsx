@@ -1,5 +1,3 @@
-import NavBar from "../../components/navbar";
-
 const imgclass = "w-100 shadow-1-strong rounded mb-4";
 const colclass = "col-lg-4 col-md-12 mb-4 mb-lg-0";
 
@@ -78,15 +76,12 @@ function ImageGrid({ title, images }: { title: string; images: string[] }) {
 function BrewerGallery() {
   return (
     <>
-      <NavBar />
-      <div className="container">
-      <ImageGrid title="The Chemex" images={chemex} />
       <ImageGrid title="The Aeropress" images={aeropress} />
+      <ImageGrid title="The Chemex" images={chemex} />
       <ImageGrid title="The French Press" images={french_press} />
       <ImageGrid title="The Kalita" images={kalita} />
       <ImageGrid title="The Moka Pot" images={moka} />
       <ImageGrid title="The Mr. Coffee" images={mrcoffee} />
-      </div>
     </>
   );
 }

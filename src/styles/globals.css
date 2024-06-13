@@ -6,9 +6,13 @@
   display: none;
 }
 
-.container {
-  margin-top: 16rem;
-  margin-bottom: 16rem;
+#design, #pictures, #time {
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+}
+
+body {
+  background-color: antiquewhite !important;
 }
 
 .banner_images {
@@ -17,7 +21,18 @@
   border-radius: 5%;
 }
 #hero {
-  background-color: antiquewhite;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  background-color: burlywood;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+
+.coffee-row {
+  margin-bottom: 5rem;
+  text-align: center;
+
+}
+
+.coffee-row h1 {
+  padding: 5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
