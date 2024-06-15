@@ -24,9 +24,9 @@ function App() {
             </div>
             <div className="col">
               {Carousel(
-                "./src/assets/banner/banner1.jpg",
-                "./src/assets/banner/banner2.jpg",
-                "./src/assets/banner/banner3.jpg"
+                "/banner/banner1.jpg",
+                "/banner/banner2.jpg",
+                "/banner/banner3.jpg"
               )}
             </div>
           </div>
@@ -38,7 +38,7 @@ function App() {
         header="Design?"
         text="I tried Figma but my designs were not as good as I wanted them to be. So I just threw everything together.
                    I'm not a designer so I don't know what I'm doing."
-        image="/src/assets/banner/banner4.jpg"
+        image="/banner/banner4.jpg"
         reverse={0}
       />
 
@@ -47,7 +47,7 @@ function App() {
         header="The Pictures"
         text="Except some stock images, all of my pictures were taken by me. I don't have a camera so I just took pictures 
       with my phone. I think they're pretty good."
-        image="/src/assets/banner/banner5.jpg"
+        image="/banner/banner5.jpg"
         reverse={1}
       />
 
@@ -56,8 +56,8 @@ function App() {
         header="Time"
         text="All things considered, time is the most important thing in life. Sometimes you find yourself in a situation where
       you can't find time to do the most basic things. Including this website. It took two full days to finish it. One sleepless night and
-      a single free saturday."
-        image="/src/assets/banner/banner6.jpg"
+      a single free saturday (Excluding all the polishing)."
+        image="/banner/banner6.jpg"
         reverse={0}
       />
     </>

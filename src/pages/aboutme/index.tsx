@@ -10,7 +10,7 @@ function AboutMe() {
       <div className="container">
         <div className="row">
           <div className={colclass}>
-            <img src="/src/assets/me.jpg" alt="me" className={imgclass} />
+            <img src="/me.jpg" alt="me" className={imgclass} />
           </div>
           <div className={colclass}>
             <h1>This is me</h1>

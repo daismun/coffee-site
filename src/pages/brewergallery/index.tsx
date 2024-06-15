@@ -4,63 +4,63 @@ const imgclass = "w-100 shadow-1-strong rounded mb-4";
 const colclass = "col-lg-4 col-md-12 mb-4 mb-lg-0";
 
 const aeropress = [
-  "/src/assets/aeropress/aeropress01.webp",
-  "/src/assets/aeropress/aeropress02.webp",
-  "/src/assets/aeropress/aeropress03.webp",
-  "/src/assets/aeropress/aeropress04.webp",
-  "/src/assets/aeropress/aeropress05.webp",
-  "/src/assets/aeropress/aeropress06.webp",
-  "/src/assets/aeropress/aeropress07.webp",
-  "/src/assets/aeropress/aeropress08.webp",
-  "/src/assets/aeropress/aeropress09.webp",
+  "/aeropress/aeropress01.webp",
+  "/aeropress/aeropress02.webp",
+  "/aeropress/aeropress03.webp",
+  "/aeropress/aeropress04.webp",
+  "/aeropress/aeropress05.webp",
+  "/aeropress/aeropress06.webp",
+  "/aeropress/aeropress07.webp",
+  "/aeropress/aeropress08.webp",
+  "/aeropress/aeropress09.webp",
 ];
 
 const chemex = [
-  "/src/assets/chemex/chemex01.webp",
-  "/src/assets/chemex/chemex02.webp",
-  "/src/assets/chemex/chemex03.webp",
-  "/src/assets/chemex/chemex04.webp",
-  "/src/assets/chemex/chemex05.webp",
-  "/src/assets/chemex/chemex06.webp",
-  "/src/assets/chemex/chemex07.webp",
-  "/src/assets/chemex/chemex08.webp",
-  "/src/assets/chemex/chemex09.webp",
+  "/chemex/chemex01.webp",
+  "/chemex/chemex02.webp",
+  "/chemex/chemex03.webp",
+  "/chemex/chemex04.webp",
+  "/chemex/chemex05.webp",
+  "/chemex/chemex06.webp",
+  "/chemex/chemex07.webp",
+  "/chemex/chemex08.webp",
+  "/chemex/chemex09.webp",
 ];
 
 const french_press = [
-  "/src/assets/french_press/frenchpress1.webp",
-  "/src/assets/french_press/frenchpress2.webp",
-  "/src/assets/french_press/frenchpress3.webp",
-  "/src/assets/french_press/frenchpress4.webp",
-  "/src/assets/french_press/frenchpress5.webp",
-  "/src/assets/french_press/frenchpress6.webp",
+  "/french_press/frenchpress1.webp",
+  "/french_press/frenchpress2.webp",
+  "/french_press/frenchpress3.webp",
+  "/french_press/frenchpress4.webp",
+  "/french_press/frenchpress5.webp",
+  "/french_press/frenchpress6.webp",
 ];
 
 const kalita = [
-  "/src/assets/kalita/kalita1.webp",
-  "/src/assets/kalita/kalita2.webp",
-  "/src/assets/kalita/kalita3.webp",
-  "/src/assets/kalita/kalita4.webp",
-  "/src/assets/kalita/kalita5.webp",
-  "/src/assets/kalita/kalita6.webp",
+  "/kalita/kalita1.webp",
+  "/kalita/kalita2.webp",
+  "/kalita/kalita3.webp",
+  "/kalita/kalita4.webp",
+  "/kalita/kalita5.webp",
+  "/kalita/kalita6.webp",
 ];
 
 const moka = [
-  "/src/assets/moka/moka1.webp",
-  "/src/assets/moka/moka2.webp",
-  "/src/assets/moka/moka3.webp",
-  "/src/assets/moka/moka4.webp",
-  "/src/assets/moka/moka5.webp",
-  "/src/assets/moka/moka6.webp",
+  "/moka/moka1.webp",
+  "/moka/moka2.webp",
+  "/moka/moka3.webp",
+  "/moka/moka4.webp",
+  "/moka/moka5.webp",
+  "/moka/moka6.webp",
 ];
 
 const mrcoffee = [
-  "/src/assets/mrcoffee/mrcoffee1.webp",
-  "/src/assets/mrcoffee/mrcoffee2.webp",
-  "/src/assets/mrcoffee/mrcoffee3.webp",
-  "/src/assets/mrcoffee/mrcoffee4.webp",
-  "/src/assets/mrcoffee/mrcoffee5.webp",
-  "/src/assets/mrcoffee/mrcoffee6.webp",
+  "/mrcoffee/mrcoffee1.webp",
+  "/mrcoffee/mrcoffee2.webp",
+  "/mrcoffee/mrcoffee3.webp",
+  "/mrcoffee/mrcoffee4.webp",
+  "/mrcoffee/mrcoffee5.webp",
+  "/mrcoffee/mrcoffee6.webp",
 ];
 
 function ImageGrid({ title, images }: { title: string; images: string[] }) {
